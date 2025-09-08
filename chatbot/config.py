@@ -11,7 +11,7 @@ class Config:
 
     # OpenAI Configuration
     OPENAI_API_KEY: Optional[str] = os.environ.get("OPENAI_API_KEY")
-    OPENAI_MODEL: str = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+    OPENAI_MODEL: str = os.environ.get("OPENAI_MODEL", "gpt-4.1-2025-04-14")
     ASSISTANT_ID: Optional[str] = os.environ.get("ASSISTANT_ID")
 
     # File paths
